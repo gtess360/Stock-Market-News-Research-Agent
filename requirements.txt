@@ -1,0 +1,23 @@
+# ==============================================================================
+# Stock Market News Research Agent - Dependencies
+# ==============================================================================
+
+# Web Dashboard & Visualizations
+streamlit>=1.40.0
+plotly>=5.24.0
+
+# Agent Orchestration & LLM Provider
+langgraph>=0.2.0
+langchain-openai>=0.2.0
+openai>=1.50.0
+
+# Schemas & Validation
+pydantic>=2.9.0
+
+# Configuration & Utilities
+python-dotenv>=1.0.0
+fpdf2>=2.8.0
+
+# Testing
+pytest>=8.3.0
+

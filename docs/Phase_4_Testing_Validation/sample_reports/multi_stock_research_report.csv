@@ -1,0 +1,58 @@
+# STOCK MARKET NEWS RESEARCH AGENT - RESEARCH REPORT
+Job ID,311a657d-b739-4ff1-90e3-cfaf7a6f2f5b
+Tab Type,sentiment
+Tickers,"AAPL, MSFT, NVDA"
+Date Window,2026-10-08 to 2026-11-07
+Forward Horizon Days,30
+Status,completed
+Generated At,2026-11-08T16:22:37.211198+00:00
+
+Record Type,Ticker,Category,Date,Publisher,Claim / Headline / Summary,Source URL,Notes / Weights
+EXECUTIVE_SUMMARY,ALL,Synthesis,2026-11-08,AI Agent,"Forward-looking sentiment and scenario analysis for AAPL, NVDA, MSFT over a 30-day horizon as of 2026-11-07. Evaluated catalysts, downside risks, and opposing evidence across 21 verified articles.",,
+SENTIMENT_OUTLOOK,AAPL,News: NEGATIVE,,Scenario Lens,Forward (30D): BEARISH,,Evidence Strength: STRONG
+CATALYST,AAPL,Positive Catalyst,,Agent Extracted,Catalyst: Wall Street Brokerages Upgrade AAPL Price Targets Following Earnings Beat,,
+CATALYST,AAPL,Positive Catalyst,,Agent Extracted,Catalyst: AAPL Unveils Next-Generation Architecture Ahead of Schedule,,
+CATALYST,AAPL,Positive Catalyst,,Agent Extracted,Catalyst: AAPL Reports Record Quarterly Cloud & AI Segment Revenue,,
+DOWNSIDE_RISK,AAPL,Downside Headwind,,Agent Extracted,Risk factor: Regulatory Authorities Open Preliminary Inquiry into AAPL Software Ecosystem,,
+DOWNSIDE_RISK,AAPL,Downside Headwind,,Agent Extracted,Risk factor: Supply Chain Constraints Moderate Component Deliveries for AAPL,,
+DOWNSIDE_RISK,AAPL,Downside Headwind,,Agent Extracted,Risk factor: Wall Street Brokerages Upgrade AAPL Price Targets Following Earnings Beat,,
+OPPOSING_EVIDENCE,AAPL,Counter-Narrative,,Agent Extracted,Catalyst: Wall Street Brokerages Upgrade AAPL Price Targets Following Earnings Beat,,
+SENTIMENT_OUTLOOK,NVDA,News: NEGATIVE,,Scenario Lens,Forward (30D): BEARISH,,Evidence Strength: STRONG
+CATALYST,NVDA,Positive Catalyst,,Agent Extracted,Catalyst: Wall Street Brokerages Upgrade NVDA Price Targets Following Earnings Beat,,
+CATALYST,NVDA,Positive Catalyst,,Agent Extracted,Catalyst: NVDA Unveils Next-Generation Architecture Ahead of Schedule,,
+CATALYST,NVDA,Positive Catalyst,,Agent Extracted,Catalyst: NVDA Reports Record Quarterly Cloud & AI Segment Revenue,,
+DOWNSIDE_RISK,NVDA,Downside Headwind,,Agent Extracted,Risk factor: Regulatory Authorities Open Preliminary Inquiry into NVDA Software Ecosystem,,
+DOWNSIDE_RISK,NVDA,Downside Headwind,,Agent Extracted,Risk factor: Supply Chain Constraints Moderate Component Deliveries for NVDA,,
+DOWNSIDE_RISK,NVDA,Downside Headwind,,Agent Extracted,Risk factor: Wall Street Brokerages Upgrade NVDA Price Targets Following Earnings Beat,,
+OPPOSING_EVIDENCE,NVDA,Counter-Narrative,,Agent Extracted,Catalyst: Wall Street Brokerages Upgrade NVDA Price Targets Following Earnings Beat,,
+SENTIMENT_OUTLOOK,MSFT,News: NEGATIVE,,Scenario Lens,Forward (30D): BEARISH,,Evidence Strength: STRONG
+CATALYST,MSFT,Positive Catalyst,,Agent Extracted,Catalyst: Wall Street Brokerages Upgrade MSFT Price Targets Following Earnings Beat,,
+CATALYST,MSFT,Positive Catalyst,,Agent Extracted,Catalyst: MSFT Unveils Next-Generation Architecture Ahead of Schedule,,
+CATALYST,MSFT,Positive Catalyst,,Agent Extracted,Catalyst: MSFT Reports Record Quarterly Cloud & AI Segment Revenue,,
+DOWNSIDE_RISK,MSFT,Downside Headwind,,Agent Extracted,Risk factor: Regulatory Authorities Open Preliminary Inquiry into MSFT Software Ecosystem,,
+DOWNSIDE_RISK,MSFT,Downside Headwind,,Agent Extracted,Risk factor: Supply Chain Constraints Moderate Component Deliveries for MSFT,,
+DOWNSIDE_RISK,MSFT,Downside Headwind,,Agent Extracted,Risk factor: Wall Street Brokerages Upgrade MSFT Price Targets Following Earnings Beat,,
+OPPOSING_EVIDENCE,MSFT,Counter-Narrative,,Agent Extracted,Catalyst: Wall Street Brokerages Upgrade MSFT Price Targets Following Earnings Beat,,
+CITATION,N/A,Verified Fact,2026-10-28,Financial Times,Risk factor: Regulatory Authorities Open Preliminary Inquiry into AAPL Software Ecosystem,https://finance.mockwire.com/news/aapl/mock_aapl_20261028_4,Article ID: mock_aapl_20261028_4
+CITATION,N/A,Verified Fact,2026-10-23,CNBC,Risk factor: Supply Chain Constraints Moderate Component Deliveries for AAPL,https://finance.mockwire.com/news/aapl/mock_aapl_20261023_3,Article ID: mock_aapl_20261023_3
+CITATION,N/A,Verified Fact,2026-10-18,Wall Street Journal,Catalyst: Wall Street Brokerages Upgrade AAPL Price Targets Following Earnings Beat,https://finance.mockwire.com/news/aapl/mock_aapl_20261018_2,Article ID: mock_aapl_20261018_2
+CITATION,N/A,Verified Fact,2026-10-18,Wall Street Journal,Risk factor: Wall Street Brokerages Upgrade AAPL Price Targets Following Earnings Beat,https://finance.mockwire.com/news/aapl/mock_aapl_20261018_2,Article ID: mock_aapl_20261018_2
+CITATION,N/A,Verified Fact,2026-10-13,Bloomberg,Catalyst: AAPL Unveils Next-Generation Architecture Ahead of Schedule,https://finance.mockwire.com/news/aapl/mock_aapl_20261013_1,Article ID: mock_aapl_20261013_1
+CITATION,N/A,Verified Fact,2026-10-08,Reuters,Catalyst: AAPL Reports Record Quarterly Cloud & AI Segment Revenue,https://finance.mockwire.com/news/aapl/mock_aapl_20261008_0,Article ID: mock_aapl_20261008_0
+CITATION,N/A,Verified Fact,2026-10-08,Reuters,Risk factor: AAPL Reports Record Quarterly Cloud & AI Segment Revenue,https://finance.mockwire.com/news/aapl/mock_aapl_20261008_0,Article ID: mock_aapl_20261008_0
+CITATION,N/A,Verified Fact,2026-10-28,Financial Times,Risk factor: Regulatory Authorities Open Preliminary Inquiry into NVDA Software Ecosystem,https://finance.mockwire.com/news/nvda/mock_nvda_20261028_4,Article ID: mock_nvda_20261028_4
+CITATION,N/A,Verified Fact,2026-10-23,CNBC,Risk factor: Supply Chain Constraints Moderate Component Deliveries for NVDA,https://finance.mockwire.com/news/nvda/mock_nvda_20261023_3,Article ID: mock_nvda_20261023_3
+CITATION,N/A,Verified Fact,2026-10-18,Wall Street Journal,Catalyst: Wall Street Brokerages Upgrade NVDA Price Targets Following Earnings Beat,https://finance.mockwire.com/news/nvda/mock_nvda_20261018_2,Article ID: mock_nvda_20261018_2
+CITATION,N/A,Verified Fact,2026-10-18,Wall Street Journal,Risk factor: Wall Street Brokerages Upgrade NVDA Price Targets Following Earnings Beat,https://finance.mockwire.com/news/nvda/mock_nvda_20261018_2,Article ID: mock_nvda_20261018_2
+CITATION,N/A,Verified Fact,2026-10-13,Bloomberg,Catalyst: NVDA Unveils Next-Generation Architecture Ahead of Schedule,https://finance.mockwire.com/news/nvda/mock_nvda_20261013_1,Article ID: mock_nvda_20261013_1
+CITATION,N/A,Verified Fact,2026-10-08,Reuters,Catalyst: NVDA Reports Record Quarterly Cloud & AI Segment Revenue,https://finance.mockwire.com/news/nvda/mock_nvda_20261008_0,Article ID: mock_nvda_20261008_0
+CITATION,N/A,Verified Fact,2026-10-08,Reuters,Risk factor: NVDA Reports Record Quarterly Cloud & AI Segment Revenue,https://finance.mockwire.com/news/nvda/mock_nvda_20261008_0,Article ID: mock_nvda_20261008_0
+CITATION,N/A,Verified Fact,2026-10-28,Financial Times,Risk factor: Regulatory Authorities Open Preliminary Inquiry into MSFT Software Ecosystem,https://finance.mockwire.com/news/msft/mock_msft_20261028_4,Article ID: mock_msft_20261028_4
+CITATION,N/A,Verified Fact,2026-10-23,CNBC,Risk factor: Supply Chain Constraints Moderate Component Deliveries for MSFT,https://finance.mockwire.com/news/msft/mock_msft_20261023_3,Article ID: mock_msft_20261023_3
+CITATION,N/A,Verified Fact,2026-10-18,Wall Street Journal,Catalyst: Wall Street Brokerages Upgrade MSFT Price Targets Following Earnings Beat,https://finance.mockwire.com/news/msft/mock_msft_20261018_2,Article ID: mock_msft_20261018_2
+CITATION,N/A,Verified Fact,2026-10-18,Wall Street Journal,Risk factor: Wall Street Brokerages Upgrade MSFT Price Targets Following Earnings Beat,https://finance.mockwire.com/news/msft/mock_msft_20261018_2,Article ID: mock_msft_20261018_2
+CITATION,N/A,Verified Fact,2026-10-13,Bloomberg,Catalyst: MSFT Unveils Next-Generation Architecture Ahead of Schedule,https://finance.mockwire.com/news/msft/mock_msft_20261013_1,Article ID: mock_msft_20261013_1
+CITATION,N/A,Verified Fact,2026-10-08,Reuters,Catalyst: MSFT Reports Record Quarterly Cloud & AI Segment Revenue,https://finance.mockwire.com/news/msft/mock_msft_20261008_0,Article ID: mock_msft_20261008_0
+CITATION,N/A,Verified Fact,2026-10-08,Reuters,Risk factor: MSFT Reports Record Quarterly Cloud & AI Segment Revenue,https://finance.mockwire.com/news/msft/mock_msft_20261008_0,Article ID: mock_msft_20261008_0
+
+DISCLAIMER,ALL,Compliance,,Stock Market Agent,Informational report only. Does not constitute investment advice or guaranteed return.,,

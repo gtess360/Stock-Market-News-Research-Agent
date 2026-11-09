@@ -1,0 +1,58 @@
+"""Services package for Stock Market News Research Agent."""
+from src.services.audit_service import log_audit_event, sanitize_metadata
+from src.services.auth_service import (
+    authenticate_user,
+    bootstrap_admin_user,
+    check_login_rate_limit,
+    create_session,
+    hash_password,
+    promote_user_to_admin,
+    register_user,
+    request_password_reset,
+    reset_password_with_token,
+    revoke_all_user_sessions,
+    revoke_session,
+    validate_password_strength,
+    validate_session,
+    verify_password,
+)
+from src.services.entitlement_service import (
+    admin_issue_token,
+    admin_list_token_requests,
+    admin_review_token_request,
+    admin_revoke_token,
+    check_entitlement,
+    hash_token,
+    redeem_token,
+    request_token,
+)
+from src.services.job_service import complete_research_job, create_research_job
+
+__all__ = [
+    "log_audit_event",
+    "sanitize_metadata",
+    "register_user",
+    "bootstrap_admin_user",
+    "promote_user_to_admin",
+    "authenticate_user",
+    "check_login_rate_limit",
+    "create_session",
+    "validate_session",
+    "revoke_session",
+    "revoke_all_user_sessions",
+    "validate_password_strength",
+    "request_password_reset",
+    "reset_password_with_token",
+    "hash_password",
+    "verify_password",
+    "check_entitlement",
+    "redeem_token",
+    "request_token",
+    "admin_issue_token",
+    "admin_revoke_token",
+    "admin_list_token_requests",
+    "admin_review_token_request",
+    "hash_token",
+    "create_research_job",
+    "complete_research_job",
+]

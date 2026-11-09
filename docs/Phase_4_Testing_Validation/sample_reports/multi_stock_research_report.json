@@ -1,0 +1,1261 @@
+{
+  "job_id": "311a657d-b739-4ff1-90e3-cfaf7a6f2f5b",
+  "user_id": "af2063d3-d289-42e6-9fa6-11793957cc41",
+  "tab": "sentiment",
+  "tickers": [
+    "AAPL",
+    "MSFT",
+    "NVDA"
+  ],
+  "date_range": {
+    "start": "2026-10-08",
+    "end": "2026-11-07"
+  },
+  "forward_horizon_days": 30,
+  "status": "completed",
+  "created_at": "2026-11-08T16:22:37.211198+00:00",
+  "completed_at": "2026-11-08T16:22:37.262547+00:00",
+  "model_version": "mock",
+  "report": {
+    "report_id": "881b3a08-459d-4517-8695-834bd0eb66e1",
+    "job_id": "311a657d-b739-4ff1-90e3-cfaf7a6f2f5b",
+    "user_id": "af2063d3-d289-42e6-9fa6-11793957cc41",
+    "tab": "sentiment",
+    "as_of_date": "2026-11-07",
+    "date_range": {
+      "start": "2026-10-08",
+      "end": "2026-11-07"
+    },
+    "tickers": [
+      "AAPL",
+      "NVDA",
+      "MSFT"
+    ],
+    "horizon_days": 30,
+    "executive_summary": "Forward-looking sentiment and scenario analysis for AAPL, NVDA, MSFT over a 30-day horizon as of 2026-11-07. Evaluated catalysts, downside risks, and opposing evidence across 21 verified articles.",
+    "stock_news_summaries": [],
+    "stock_sentiment_outlooks": [
+      {
+        "ticker": "AAPL",
+        "company_name": "Apple Inc.",
+        "current_news_sentiment": "negative",
+        "forward_scenario_outlook": "bearish",
+        "horizon_days": 30,
+        "evidence_strength": "strong",
+        "catalysts": [
+          "Catalyst: Wall Street Brokerages Upgrade AAPL Price Targets Following Earnings Beat",
+          "Catalyst: AAPL Unveils Next-Generation Architecture Ahead of Schedule",
+          "Catalyst: AAPL Reports Record Quarterly Cloud & AI Segment Revenue"
+        ],
+        "risks": [
+          "Risk factor: Regulatory Authorities Open Preliminary Inquiry into AAPL Software Ecosystem",
+          "Risk factor: Supply Chain Constraints Moderate Component Deliveries for AAPL",
+          "Risk factor: Wall Street Brokerages Upgrade AAPL Price Targets Following Earnings Beat"
+        ],
+        "opposing_evidence": [
+          "Catalyst: Wall Street Brokerages Upgrade AAPL Price Targets Following Earnings Beat"
+        ],
+        "citations": [
+          {
+            "claim": "Risk factor: Regulatory Authorities Open Preliminary Inquiry into AAPL Software Ecosystem",
+            "article_id": "mock_aapl_20261028_4",
+            "publisher": "Financial Times",
+            "source_url": "https://finance.mockwire.com/news/aapl/mock_aapl_20261028_4",
+            "publication_date": "2026-10-28T13:30:00+00:00",
+            "is_verified": true,
+            "grounding_notes": null
+          },
+          {
+            "claim": "Risk factor: Supply Chain Constraints Moderate Component Deliveries for AAPL",
+            "article_id": "mock_aapl_20261023_3",
+            "publisher": "CNBC",
+            "source_url": "https://finance.mockwire.com/news/aapl/mock_aapl_20261023_3",
+            "publication_date": "2026-10-23T13:30:00+00:00",
+            "is_verified": true,
+            "grounding_notes": null
+          },
+          {
+            "claim": "Catalyst: Wall Street Brokerages Upgrade AAPL Price Targets Following Earnings Beat",
+            "article_id": "mock_aapl_20261018_2",
+            "publisher": "Wall Street Journal",
+            "source_url": "https://finance.mockwire.com/news/aapl/mock_aapl_20261018_2",
+            "publication_date": "2026-10-18T13:30:00+00:00",
+            "is_verified": true,
+            "grounding_notes": null
+          },
+          {
+            "claim": "Risk factor: Wall Street Brokerages Upgrade AAPL Price Targets Following Earnings Beat",
+            "article_id": "mock_aapl_20261018_2",
+            "publisher": "Wall Street Journal",
+            "source_url": "https://finance.mockwire.com/news/aapl/mock_aapl_20261018_2",
+            "publication_date": "2026-10-18T13:30:00+00:00",
+            "is_verified": true,
+            "grounding_notes": null
+          },
+          {
+            "claim": "Catalyst: AAPL Unveils Next-Generation Architecture Ahead of Schedule",
+            "article_id": "mock_aapl_20261013_1",
+            "publisher": "Bloomberg",
+            "source_url": "https://finance.mockwire.com/news/aapl/mock_aapl_20261013_1",
+            "publication_date": "2026-10-13T13:30:00+00:00",
+            "is_verified": true,
+            "grounding_notes": null
+          },
+          {
+            "claim": "Catalyst: AAPL Reports Record Quarterly Cloud & AI Segment Revenue",
+            "article_id": "mock_aapl_20261008_0",
+            "publisher": "Reuters",
+            "source_url": "https://finance.mockwire.com/news/aapl/mock_aapl_20261008_0",
+            "publication_date": "2026-10-08T13:30:00+00:00",
+            "is_verified": true,
+            "grounding_notes": null
+          },
+          {
+            "claim": "Risk factor: AAPL Reports Record Quarterly Cloud & AI Segment Revenue",
+            "article_id": "mock_aapl_20261008_0",
+            "publisher": "Reuters",
+            "source_url": "https://finance.mockwire.com/news/aapl/mock_aapl_20261008_0",
+            "publication_date": "2026-10-08T13:30:00+00:00",
+            "is_verified": true,
+            "grounding_notes": null
+          }
+        ],
+        "limitations": [
+          "Rule-based deterministic synthesis applied (offline/mock mode)."
+        ],
+        "weighted_catalysts": [
+          {
+            "factor_text": "Wall Street Brokerages Upgrade AAPL Price Targets Following Earnings Beat",
+            "category": "catalyst",
+            "impact_weight": "high",
+            "time_horizon": "tactical",
+            "corroborating_sources_count": 1,
+            "source_article_ids": [
+              "mock_aapl_20261018_2"
+            ]
+          },
+          {
+            "factor_text": "AAPL Unveils Next-Generation Architecture Ahead of Schedule",
+            "category": "catalyst",
+            "impact_weight": "medium",
+            "time_horizon": "tactical",
+            "corroborating_sources_count": 1,
+            "source_article_ids": [
+              "mock_aapl_20261013_1"
+            ]
+          },
+          {
+            "factor_text": "AAPL Reports Record Quarterly Cloud & AI Segment Revenue",
+            "category": "catalyst",
+            "impact_weight": "high",
+            "time_horizon": "tactical",
+            "corroborating_sources_count": 1,
+            "source_article_ids": [
+              "mock_aapl_20261008_0"
+            ]
+          }
+        ],
+        "weighted_risks": [
+          {
+            "factor_text": "Regulatory Authorities Open Preliminary Inquiry into AAPL Software Ecosystem",
+            "category": "risk",
+            "impact_weight": "high",
+            "time_horizon": "tactical",
+            "corroborating_sources_count": 1,
+            "source_article_ids": [
+              "mock_aapl_20261028_4"
+            ]
+          },
+          {
+            "factor_text": "Supply Chain Constraints Moderate Component Deliveries for AAPL",
+            "category": "risk",
+            "impact_weight": "medium",
+            "time_horizon": "tactical",
+            "corroborating_sources_count": 1,
+            "source_article_ids": [
+              "mock_aapl_20261023_3"
+            ]
+          },
+          {
+            "factor_text": "Wall Street Brokerages Upgrade AAPL Price Targets Following Earnings Beat",
+            "category": "risk",
+            "impact_weight": "medium",
+            "time_horizon": "tactical",
+            "corroborating_sources_count": 1,
+            "source_article_ids": [
+              "mock_aapl_20261018_2"
+            ]
+          },
+          {
+            "factor_text": "AAPL Reports Record Quarterly Cloud & AI Segment Revenue",
+            "category": "risk",
+            "impact_weight": "high",
+            "time_horizon": "tactical",
+            "corroborating_sources_count": 1,
+            "source_article_ids": [
+              "mock_aapl_20261008_0"
+            ]
+          }
+        ],
+        "weighted_opposing": [
+          {
+            "factor_text": "Wall Street Brokerages Upgrade AAPL Price Targets Following Earnings Beat",
+            "category": "catalyst",
+            "impact_weight": "high",
+            "time_horizon": "tactical",
+            "corroborating_sources_count": 1,
+            "source_article_ids": [
+              "mock_aapl_20261018_2"
+            ]
+          }
+        ],
+        "sentiment_timeline": [
+          {
+            "date": "2026-10-08",
+            "ticker": "AAPL",
+            "headline": "AAPL Reports Record Quarterly Cloud & AI Segment Revenue",
+            "publisher": "Reuters",
+            "sentiment_label": "mixed",
+            "sentiment_score": 0.0,
+            "article_id": "mock_aapl_20261008_0",
+            "source_url": "https://finance.mockwire.com/news/aapl/mock_aapl_20261008_0"
+          },
+          {
+            "date": "2026-10-08",
+            "ticker": "AAPL",
+            "headline": "AAPL Partners with Global Telecoms to Deploy Edge Computing Nodes",
+            "publisher": "Business Wire",
+            "sentiment_label": "neutral",
+            "sentiment_score": 0.0,
+            "article_id": "mock_aapl_20261008_6",
+            "source_url": "https://finance.mockwire.com/news/aapl/mock_aapl_20261008_6"
+          },
+          {
+            "date": "2026-10-13",
+            "ticker": "AAPL",
+            "headline": "AAPL Unveils Next-Generation Architecture Ahead of Schedule",
+            "publisher": "Bloomberg",
+            "sentiment_label": "positive",
+            "sentiment_score": 1.0,
+            "article_id": "mock_aapl_20261013_1",
+            "source_url": "https://finance.mockwire.com/news/aapl/mock_aapl_20261013_1"
+          },
+          {
+            "date": "2026-10-18",
+            "ticker": "AAPL",
+            "headline": "Wall Street Brokerages Upgrade AAPL Price Targets Following Earnings Beat",
+            "publisher": "Wall Street Journal",
+            "sentiment_label": "mixed",
+            "sentiment_score": 0.0,
+            "article_id": "mock_aapl_20261018_2",
+            "source_url": "https://finance.mockwire.com/news/aapl/mock_aapl_20261018_2"
+          },
+          {
+            "date": "2026-10-23",
+            "ticker": "AAPL",
+            "headline": "Supply Chain Constraints Moderate Component Deliveries for AAPL",
+            "publisher": "CNBC",
+            "sentiment_label": "negative",
+            "sentiment_score": -1.0,
+            "article_id": "mock_aapl_20261023_3",
+            "source_url": "https://finance.mockwire.com/news/aapl/mock_aapl_20261023_3"
+          },
+          {
+            "date": "2026-10-28",
+            "ticker": "AAPL",
+            "headline": "Regulatory Authorities Open Preliminary Inquiry into AAPL Software Ecosystem",
+            "publisher": "Financial Times",
+            "sentiment_label": "negative",
+            "sentiment_score": -1.0,
+            "article_id": "mock_aapl_20261028_4",
+            "source_url": "https://finance.mockwire.com/news/aapl/mock_aapl_20261028_4"
+          },
+          {
+            "date": "2026-11-02",
+            "ticker": "AAPL",
+            "headline": "AAPL Partners with Global Telecoms to Deploy Edge Computing Nodes",
+            "publisher": "PR Newswire",
+            "sentiment_label": "neutral",
+            "sentiment_score": 0.0,
+            "article_id": "mock_aapl_20261102_5",
+            "source_url": "https://finance.mockwire.com/news/aapl/mock_aapl_20261102_5"
+          }
+        ],
+        "transparency_metrics": {
+          "total_articles_evaluated": 7,
+          "canonical_unique_articles": 6,
+          "syndicated_duplicates_filtered": 1,
+          "unique_publishers_count": 7,
+          "unique_publishers": [
+            "Bloomberg",
+            "Business Wire",
+            "CNBC",
+            "Financial Times",
+            "PR Newswire",
+            "Reuters",
+            "Wall Street Journal"
+          ],
+          "recency_last_7d_count": 7,
+          "recency_older_count": 0,
+          "source_diversity_rating": "high"
+        },
+        "scenario_triggers": [
+          "Swift resolution of preliminary regulatory inquiries without enforcement.",
+          "Accelerated commercial shipment milestones outpacing brokerage consensus.",
+          "Key enterprise customer wins or expanded hyperscaler partnership agreements."
+        ],
+        "net_sentiment_score": -0.14
+      },
+      {
+        "ticker": "NVDA",
+        "company_name": "NVIDIA Corporation",
+        "current_news_sentiment": "negative",
+        "forward_scenario_outlook": "bearish",
+        "horizon_days": 30,
+        "evidence_strength": "strong",
+        "catalysts": [
+          "Catalyst: Wall Street Brokerages Upgrade NVDA Price Targets Following Earnings Beat",
+          "Catalyst: NVDA Unveils Next-Generation Architecture Ahead of Schedule",
+          "Catalyst: NVDA Reports Record Quarterly Cloud & AI Segment Revenue"
+        ],
+        "risks": [
+          "Risk factor: Regulatory Authorities Open Preliminary Inquiry into NVDA Software Ecosystem",
+          "Risk factor: Supply Chain Constraints Moderate Component Deliveries for NVDA",
+          "Risk factor: Wall Street Brokerages Upgrade NVDA Price Targets Following Earnings Beat"
+        ],
+        "opposing_evidence": [
+          "Catalyst: Wall Street Brokerages Upgrade NVDA Price Targets Following Earnings Beat"
+        ],
+        "citations": [
+          {
+            "claim": "Risk factor: Regulatory Authorities Open Preliminary Inquiry into NVDA Software Ecosystem",
+            "article_id": "mock_nvda_20261028_4",
+            "publisher": "Financial Times",
+            "source_url": "https://finance.mockwire.com/news/nvda/mock_nvda_20261028_4",
+            "publication_date": "2026-10-28T13:30:00+00:00",
+            "is_verified": true,
+            "grounding_notes": null
+          },
+          {
+            "claim": "Risk factor: Supply Chain Constraints Moderate Component Deliveries for NVDA",
+            "article_id": "mock_nvda_20261023_3",
+            "publisher": "CNBC",
+            "source_url": "https://finance.mockwire.com/news/nvda/mock_nvda_20261023_3",
+            "publication_date": "2026-10-23T13:30:00+00:00",
+            "is_verified": true,
+            "grounding_notes": null
+          },
+          {
+            "claim": "Catalyst: Wall Street Brokerages Upgrade NVDA Price Targets Following Earnings Beat",
+            "article_id": "mock_nvda_20261018_2",
+            "publisher": "Wall Street Journal",
+            "source_url": "https://finance.mockwire.com/news/nvda/mock_nvda_20261018_2",
+            "publication_date": "2026-10-18T13:30:00+00:00",
+            "is_verified": true,
+            "grounding_notes": null
+          },
+          {
+            "claim": "Risk factor: Wall Street Brokerages Upgrade NVDA Price Targets Following Earnings Beat",
+            "article_id": "mock_nvda_20261018_2",
+            "publisher": "Wall Street Journal",
+            "source_url": "https://finance.mockwire.com/news/nvda/mock_nvda_20261018_2",
+            "publication_date": "2026-10-18T13:30:00+00:00",
+            "is_verified": true,
+            "grounding_notes": null
+          },
+          {
+            "claim": "Catalyst: NVDA Unveils Next-Generation Architecture Ahead of Schedule",
+            "article_id": "mock_nvda_20261013_1",
+            "publisher": "Bloomberg",
+            "source_url": "https://finance.mockwire.com/news/nvda/mock_nvda_20261013_1",
+            "publication_date": "2026-10-13T13:30:00+00:00",
+            "is_verified": true,
+            "grounding_notes": null
+          },
+          {
+            "claim": "Catalyst: NVDA Reports Record Quarterly Cloud & AI Segment Revenue",
+            "article_id": "mock_nvda_20261008_0",
+            "publisher": "Reuters",
+            "source_url": "https://finance.mockwire.com/news/nvda/mock_nvda_20261008_0",
+            "publication_date": "2026-10-08T13:30:00+00:00",
+            "is_verified": true,
+            "grounding_notes": null
+          },
+          {
+            "claim": "Risk factor: NVDA Reports Record Quarterly Cloud & AI Segment Revenue",
+            "article_id": "mock_nvda_20261008_0",
+            "publisher": "Reuters",
+            "source_url": "https://finance.mockwire.com/news/nvda/mock_nvda_20261008_0",
+            "publication_date": "2026-10-08T13:30:00+00:00",
+            "is_verified": true,
+            "grounding_notes": null
+          }
+        ],
+        "limitations": [
+          "Rule-based deterministic synthesis applied (offline/mock mode)."
+        ],
+        "weighted_catalysts": [
+          {
+            "factor_text": "Wall Street Brokerages Upgrade NVDA Price Targets Following Earnings Beat",
+            "category": "catalyst",
+            "impact_weight": "high",
+            "time_horizon": "tactical",
+            "corroborating_sources_count": 1,
+            "source_article_ids": [
+              "mock_nvda_20261018_2"
+            ]
+          },
+          {
+            "factor_text": "NVDA Unveils Next-Generation Architecture Ahead of Schedule",
+            "category": "catalyst",
+            "impact_weight": "medium",
+            "time_horizon": "tactical",
+            "corroborating_sources_count": 1,
+            "source_article_ids": [
+              "mock_nvda_20261013_1"
+            ]
+          },
+          {
+            "factor_text": "NVDA Reports Record Quarterly Cloud & AI Segment Revenue",
+            "category": "catalyst",
+            "impact_weight": "high",
+            "time_horizon": "tactical",
+            "corroborating_sources_count": 1,
+            "source_article_ids": [
+              "mock_nvda_20261008_0"
+            ]
+          }
+        ],
+        "weighted_risks": [
+          {
+            "factor_text": "Regulatory Authorities Open Preliminary Inquiry into NVDA Software Ecosystem",
+            "category": "risk",
+            "impact_weight": "high",
+            "time_horizon": "tactical",
+            "corroborating_sources_count": 1,
+            "source_article_ids": [
+              "mock_nvda_20261028_4"
+            ]
+          },
+          {
+            "factor_text": "Supply Chain Constraints Moderate Component Deliveries for NVDA",
+            "category": "risk",
+            "impact_weight": "medium",
+            "time_horizon": "tactical",
+            "corroborating_sources_count": 1,
+            "source_article_ids": [
+              "mock_nvda_20261023_3"
+            ]
+          },
+          {
+            "factor_text": "Wall Street Brokerages Upgrade NVDA Price Targets Following Earnings Beat",
+            "category": "risk",
+            "impact_weight": "medium",
+            "time_horizon": "tactical",
+            "corroborating_sources_count": 1,
+            "source_article_ids": [
+              "mock_nvda_20261018_2"
+            ]
+          },
+          {
+            "factor_text": "NVDA Reports Record Quarterly Cloud & AI Segment Revenue",
+            "category": "risk",
+            "impact_weight": "high",
+            "time_horizon": "tactical",
+            "corroborating_sources_count": 1,
+            "source_article_ids": [
+              "mock_nvda_20261008_0"
+            ]
+          }
+        ],
+        "weighted_opposing": [
+          {
+            "factor_text": "Wall Street Brokerages Upgrade NVDA Price Targets Following Earnings Beat",
+            "category": "catalyst",
+            "impact_weight": "high",
+            "time_horizon": "tactical",
+            "corroborating_sources_count": 1,
+            "source_article_ids": [
+              "mock_nvda_20261018_2"
+            ]
+          }
+        ],
+        "sentiment_timeline": [
+          {
+            "date": "2026-10-08",
+            "ticker": "NVDA",
+            "headline": "NVDA Reports Record Quarterly Cloud & AI Segment Revenue",
+            "publisher": "Reuters",
+            "sentiment_label": "mixed",
+            "sentiment_score": 0.0,
+            "article_id": "mock_nvda_20261008_0",
+            "source_url": "https://finance.mockwire.com/news/nvda/mock_nvda_20261008_0"
+          },
+          {
+            "date": "2026-10-08",
+            "ticker": "NVDA",
+            "headline": "NVDA Partners with Global Telecoms to Deploy Edge Computing Nodes",
+            "publisher": "Business Wire",
+            "sentiment_label": "neutral",
+            "sentiment_score": 0.0,
+            "article_id": "mock_nvda_20261008_6",
+            "source_url": "https://finance.mockwire.com/news/nvda/mock_nvda_20261008_6"
+          },
+          {
+            "date": "2026-10-13",
+            "ticker": "NVDA",
+            "headline": "NVDA Unveils Next-Generation Architecture Ahead of Schedule",
+            "publisher": "Bloomberg",
+            "sentiment_label": "positive",
+            "sentiment_score": 1.0,
+            "article_id": "mock_nvda_20261013_1",
+            "source_url": "https://finance.mockwire.com/news/nvda/mock_nvda_20261013_1"
+          },
+          {
+            "date": "2026-10-18",
+            "ticker": "NVDA",
+            "headline": "Wall Street Brokerages Upgrade NVDA Price Targets Following Earnings Beat",
+            "publisher": "Wall Street Journal",
+            "sentiment_label": "mixed",
+            "sentiment_score": 0.0,
+            "article_id": "mock_nvda_20261018_2",
+            "source_url": "https://finance.mockwire.com/news/nvda/mock_nvda_20261018_2"
+          },
+          {
+            "date": "2026-10-23",
+            "ticker": "NVDA",
+            "headline": "Supply Chain Constraints Moderate Component Deliveries for NVDA",
+            "publisher": "CNBC",
+            "sentiment_label": "negative",
+            "sentiment_score": -1.0,
+            "article_id": "mock_nvda_20261023_3",
+            "source_url": "https://finance.mockwire.com/news/nvda/mock_nvda_20261023_3"
+          },
+          {
+            "date": "2026-10-28",
+            "ticker": "NVDA",
+            "headline": "Regulatory Authorities Open Preliminary Inquiry into NVDA Software Ecosystem",
+            "publisher": "Financial Times",
+            "sentiment_label": "negative",
+            "sentiment_score": -1.0,
+            "article_id": "mock_nvda_20261028_4",
+            "source_url": "https://finance.mockwire.com/news/nvda/mock_nvda_20261028_4"
+          },
+          {
+            "date": "2026-11-02",
+            "ticker": "NVDA",
+            "headline": "NVDA Partners with Global Telecoms to Deploy Edge Computing Nodes",
+            "publisher": "PR Newswire",
+            "sentiment_label": "neutral",
+            "sentiment_score": 0.0,
+            "article_id": "mock_nvda_20261102_5",
+            "source_url": "https://finance.mockwire.com/news/nvda/mock_nvda_20261102_5"
+          }
+        ],
+        "transparency_metrics": {
+          "total_articles_evaluated": 7,
+          "canonical_unique_articles": 6,
+          "syndicated_duplicates_filtered": 1,
+          "unique_publishers_count": 7,
+          "unique_publishers": [
+            "Bloomberg",
+            "Business Wire",
+            "CNBC",
+            "Financial Times",
+            "PR Newswire",
+            "Reuters",
+            "Wall Street Journal"
+          ],
+          "recency_last_7d_count": 7,
+          "recency_older_count": 0,
+          "source_diversity_rating": "high"
+        },
+        "scenario_triggers": [
+          "Swift resolution of preliminary regulatory inquiries without enforcement.",
+          "Accelerated commercial shipment milestones outpacing brokerage consensus.",
+          "Key enterprise customer wins or expanded hyperscaler partnership agreements."
+        ],
+        "net_sentiment_score": -0.14
+      },
+      {
+        "ticker": "MSFT",
+        "company_name": "Microsoft Corporation",
+        "current_news_sentiment": "negative",
+        "forward_scenario_outlook": "bearish",
+        "horizon_days": 30,
+        "evidence_strength": "strong",
+        "catalysts": [
+          "Catalyst: Wall Street Brokerages Upgrade MSFT Price Targets Following Earnings Beat",
+          "Catalyst: MSFT Unveils Next-Generation Architecture Ahead of Schedule",
+          "Catalyst: MSFT Reports Record Quarterly Cloud & AI Segment Revenue"
+        ],
+        "risks": [
+          "Risk factor: Regulatory Authorities Open Preliminary Inquiry into MSFT Software Ecosystem",
+          "Risk factor: Supply Chain Constraints Moderate Component Deliveries for MSFT",
+          "Risk factor: Wall Street Brokerages Upgrade MSFT Price Targets Following Earnings Beat"
+        ],
+        "opposing_evidence": [
+          "Catalyst: Wall Street Brokerages Upgrade MSFT Price Targets Following Earnings Beat"
+        ],
+        "citations": [
+          {
+            "claim": "Risk factor: Regulatory Authorities Open Preliminary Inquiry into MSFT Software Ecosystem",
+            "article_id": "mock_msft_20261028_4",
+            "publisher": "Financial Times",
+            "source_url": "https://finance.mockwire.com/news/msft/mock_msft_20261028_4",
+            "publication_date": "2026-10-28T13:30:00+00:00",
+            "is_verified": true,
+            "grounding_notes": null
+          },
+          {
+            "claim": "Risk factor: Supply Chain Constraints Moderate Component Deliveries for MSFT",
+            "article_id": "mock_msft_20261023_3",
+            "publisher": "CNBC",
+            "source_url": "https://finance.mockwire.com/news/msft/mock_msft_20261023_3",
+            "publication_date": "2026-10-23T13:30:00+00:00",
+            "is_verified": true,
+            "grounding_notes": null
+          },
+          {
+            "claim": "Catalyst: Wall Street Brokerages Upgrade MSFT Price Targets Following Earnings Beat",
+            "article_id": "mock_msft_20261018_2",
+            "publisher": "Wall Street Journal",
+            "source_url": "https://finance.mockwire.com/news/msft/mock_msft_20261018_2",
+            "publication_date": "2026-10-18T13:30:00+00:00",
+            "is_verified": true,
+            "grounding_notes": null
+          },
+          {
+            "claim": "Risk factor: Wall Street Brokerages Upgrade MSFT Price Targets Following Earnings Beat",
+            "article_id": "mock_msft_20261018_2",
+            "publisher": "Wall Street Journal",
+            "source_url": "https://finance.mockwire.com/news/msft/mock_msft_20261018_2",
+            "publication_date": "2026-10-18T13:30:00+00:00",
+            "is_verified": true,
+            "grounding_notes": null
+          },
+          {
+            "claim": "Catalyst: MSFT Unveils Next-Generation Architecture Ahead of Schedule",
+            "article_id": "mock_msft_20261013_1",
+            "publisher": "Bloomberg",
+            "source_url": "https://finance.mockwire.com/news/msft/mock_msft_20261013_1",
+            "publication_date": "2026-10-13T13:30:00+00:00",
+            "is_verified": true,
+            "grounding_notes": null
+          },
+          {
+            "claim": "Catalyst: MSFT Reports Record Quarterly Cloud & AI Segment Revenue",
+            "article_id": "mock_msft_20261008_0",
+            "publisher": "Reuters",
+            "source_url": "https://finance.mockwire.com/news/msft/mock_msft_20261008_0",
+            "publication_date": "2026-10-08T13:30:00+00:00",
+            "is_verified": true,
+            "grounding_notes": null
+          },
+          {
+            "claim": "Risk factor: MSFT Reports Record Quarterly Cloud & AI Segment Revenue",
+            "article_id": "mock_msft_20261008_0",
+            "publisher": "Reuters",
+            "source_url": "https://finance.mockwire.com/news/msft/mock_msft_20261008_0",
+            "publication_date": "2026-10-08T13:30:00+00:00",
+            "is_verified": true,
+            "grounding_notes": null
+          }
+        ],
+        "limitations": [
+          "Rule-based deterministic synthesis applied (offline/mock mode)."
+        ],
+        "weighted_catalysts": [
+          {
+            "factor_text": "Wall Street Brokerages Upgrade MSFT Price Targets Following Earnings Beat",
+            "category": "catalyst",
+            "impact_weight": "high",
+            "time_horizon": "tactical",
+            "corroborating_sources_count": 1,
+            "source_article_ids": [
+              "mock_msft_20261018_2"
+            ]
+          },
+          {
+            "factor_text": "MSFT Unveils Next-Generation Architecture Ahead of Schedule",
+            "category": "catalyst",
+            "impact_weight": "medium",
+            "time_horizon": "tactical",
+            "corroborating_sources_count": 1,
+            "source_article_ids": [
+              "mock_msft_20261013_1"
+            ]
+          },
+          {
+            "factor_text": "MSFT Reports Record Quarterly Cloud & AI Segment Revenue",
+            "category": "catalyst",
+            "impact_weight": "high",
+            "time_horizon": "tactical",
+            "corroborating_sources_count": 1,
+            "source_article_ids": [
+              "mock_msft_20261008_0"
+            ]
+          }
+        ],
+        "weighted_risks": [
+          {
+            "factor_text": "Regulatory Authorities Open Preliminary Inquiry into MSFT Software Ecosystem",
+            "category": "risk",
+            "impact_weight": "high",
+            "time_horizon": "tactical",
+            "corroborating_sources_count": 1,
+            "source_article_ids": [
+              "mock_msft_20261028_4"
+            ]
+          },
+          {
+            "factor_text": "Supply Chain Constraints Moderate Component Deliveries for MSFT",
+            "category": "risk",
+            "impact_weight": "medium",
+            "time_horizon": "tactical",
+            "corroborating_sources_count": 1,
+            "source_article_ids": [
+              "mock_msft_20261023_3"
+            ]
+          },
+          {
+            "factor_text": "Wall Street Brokerages Upgrade MSFT Price Targets Following Earnings Beat",
+            "category": "risk",
+            "impact_weight": "medium",
+            "time_horizon": "tactical",
+            "corroborating_sources_count": 1,
+            "source_article_ids": [
+              "mock_msft_20261018_2"
+            ]
+          },
+          {
+            "factor_text": "MSFT Reports Record Quarterly Cloud & AI Segment Revenue",
+            "category": "risk",
+            "impact_weight": "high",
+            "time_horizon": "tactical",
+            "corroborating_sources_count": 1,
+            "source_article_ids": [
+              "mock_msft_20261008_0"
+            ]
+          }
+        ],
+        "weighted_opposing": [
+          {
+            "factor_text": "Wall Street Brokerages Upgrade MSFT Price Targets Following Earnings Beat",
+            "category": "catalyst",
+            "impact_weight": "high",
+            "time_horizon": "tactical",
+            "corroborating_sources_count": 1,
+            "source_article_ids": [
+              "mock_msft_20261018_2"
+            ]
+          }
+        ],
+        "sentiment_timeline": [
+          {
+            "date": "2026-10-08",
+            "ticker": "MSFT",
+            "headline": "MSFT Reports Record Quarterly Cloud & AI Segment Revenue",
+            "publisher": "Reuters",
+            "sentiment_label": "mixed",
+            "sentiment_score": 0.0,
+            "article_id": "mock_msft_20261008_0",
+            "source_url": "https://finance.mockwire.com/news/msft/mock_msft_20261008_0"
+          },
+          {
+            "date": "2026-10-08",
+            "ticker": "MSFT",
+            "headline": "MSFT Partners with Global Telecoms to Deploy Edge Computing Nodes",
+            "publisher": "Business Wire",
+            "sentiment_label": "neutral",
+            "sentiment_score": 0.0,
+            "article_id": "mock_msft_20261008_6",
+            "source_url": "https://finance.mockwire.com/news/msft/mock_msft_20261008_6"
+          },
+          {
+            "date": "2026-10-13",
+            "ticker": "MSFT",
+            "headline": "MSFT Unveils Next-Generation Architecture Ahead of Schedule",
+            "publisher": "Bloomberg",
+            "sentiment_label": "positive",
+            "sentiment_score": 1.0,
+            "article_id": "mock_msft_20261013_1",
+            "source_url": "https://finance.mockwire.com/news/msft/mock_msft_20261013_1"
+          },
+          {
+            "date": "2026-10-18",
+            "ticker": "MSFT",
+            "headline": "Wall Street Brokerages Upgrade MSFT Price Targets Following Earnings Beat",
+            "publisher": "Wall Street Journal",
+            "sentiment_label": "mixed",
+            "sentiment_score": 0.0,
+            "article_id": "mock_msft_20261018_2",
+            "source_url": "https://finance.mockwire.com/news/msft/mock_msft_20261018_2"
+          },
+          {
+            "date": "2026-10-23",
+            "ticker": "MSFT",
+            "headline": "Supply Chain Constraints Moderate Component Deliveries for MSFT",
+            "publisher": "CNBC",
+            "sentiment_label": "negative",
+            "sentiment_score": -1.0,
+            "article_id": "mock_msft_20261023_3",
+            "source_url": "https://finance.mockwire.com/news/msft/mock_msft_20261023_3"
+          },
+          {
+            "date": "2026-10-28",
+            "ticker": "MSFT",
+            "headline": "Regulatory Authorities Open Preliminary Inquiry into MSFT Software Ecosystem",
+            "publisher": "Financial Times",
+            "sentiment_label": "negative",
+            "sentiment_score": -1.0,
+            "article_id": "mock_msft_20261028_4",
+            "source_url": "https://finance.mockwire.com/news/msft/mock_msft_20261028_4"
+          },
+          {
+            "date": "2026-11-02",
+            "ticker": "MSFT",
+            "headline": "MSFT Partners with Global Telecoms to Deploy Edge Computing Nodes",
+            "publisher": "PR Newswire",
+            "sentiment_label": "neutral",
+            "sentiment_score": 0.0,
+            "article_id": "mock_msft_20261102_5",
+            "source_url": "https://finance.mockwire.com/news/msft/mock_msft_20261102_5"
+          }
+        ],
+        "transparency_metrics": {
+          "total_articles_evaluated": 7,
+          "canonical_unique_articles": 6,
+          "syndicated_duplicates_filtered": 1,
+          "unique_publishers_count": 7,
+          "unique_publishers": [
+            "Bloomberg",
+            "Business Wire",
+            "CNBC",
+            "Financial Times",
+            "PR Newswire",
+            "Reuters",
+            "Wall Street Journal"
+          ],
+          "recency_last_7d_count": 7,
+          "recency_older_count": 0,
+          "source_diversity_rating": "high"
+        },
+        "scenario_triggers": [
+          "Swift resolution of preliminary regulatory inquiries without enforcement.",
+          "Accelerated commercial shipment milestones outpacing brokerage consensus.",
+          "Key enterprise customer wins or expanded hyperscaler partnership agreements."
+        ],
+        "net_sentiment_score": -0.14
+      }
+    ],
+    "all_citations": [
+      {
+        "claim": "Risk factor: Regulatory Authorities Open Preliminary Inquiry into AAPL Software Ecosystem",
+        "article_id": "mock_aapl_20261028_4",
+        "publisher": "Financial Times",
+        "source_url": "https://finance.mockwire.com/news/aapl/mock_aapl_20261028_4",
+        "publication_date": "2026-10-28T13:30:00+00:00",
+        "is_verified": true,
+        "grounding_notes": null
+      },
+      {
+        "claim": "Risk factor: Supply Chain Constraints Moderate Component Deliveries for AAPL",
+        "article_id": "mock_aapl_20261023_3",
+        "publisher": "CNBC",
+        "source_url": "https://finance.mockwire.com/news/aapl/mock_aapl_20261023_3",
+        "publication_date": "2026-10-23T13:30:00+00:00",
+        "is_verified": true,
+        "grounding_notes": null
+      },
+      {
+        "claim": "Catalyst: Wall Street Brokerages Upgrade AAPL Price Targets Following Earnings Beat",
+        "article_id": "mock_aapl_20261018_2",
+        "publisher": "Wall Street Journal",
+        "source_url": "https://finance.mockwire.com/news/aapl/mock_aapl_20261018_2",
+        "publication_date": "2026-10-18T13:30:00+00:00",
+        "is_verified": true,
+        "grounding_notes": null
+      },
+      {
+        "claim": "Risk factor: Wall Street Brokerages Upgrade AAPL Price Targets Following Earnings Beat",
+        "article_id": "mock_aapl_20261018_2",
+        "publisher": "Wall Street Journal",
+        "source_url": "https://finance.mockwire.com/news/aapl/mock_aapl_20261018_2",
+        "publication_date": "2026-10-18T13:30:00+00:00",
+        "is_verified": true,
+        "grounding_notes": null
+      },
+      {
+        "claim": "Catalyst: AAPL Unveils Next-Generation Architecture Ahead of Schedule",
+        "article_id": "mock_aapl_20261013_1",
+        "publisher": "Bloomberg",
+        "source_url": "https://finance.mockwire.com/news/aapl/mock_aapl_20261013_1",
+        "publication_date": "2026-10-13T13:30:00+00:00",
+        "is_verified": true,
+        "grounding_notes": null
+      },
+      {
+        "claim": "Catalyst: AAPL Reports Record Quarterly Cloud & AI Segment Revenue",
+        "article_id": "mock_aapl_20261008_0",
+        "publisher": "Reuters",
+        "source_url": "https://finance.mockwire.com/news/aapl/mock_aapl_20261008_0",
+        "publication_date": "2026-10-08T13:30:00+00:00",
+        "is_verified": true,
+        "grounding_notes": null
+      },
+      {
+        "claim": "Risk factor: AAPL Reports Record Quarterly Cloud & AI Segment Revenue",
+        "article_id": "mock_aapl_20261008_0",
+        "publisher": "Reuters",
+        "source_url": "https://finance.mockwire.com/news/aapl/mock_aapl_20261008_0",
+        "publication_date": "2026-10-08T13:30:00+00:00",
+        "is_verified": true,
+        "grounding_notes": null
+      },
+      {
+        "claim": "Risk factor: Regulatory Authorities Open Preliminary Inquiry into NVDA Software Ecosystem",
+        "article_id": "mock_nvda_20261028_4",
+        "publisher": "Financial Times",
+        "source_url": "https://finance.mockwire.com/news/nvda/mock_nvda_20261028_4",
+        "publication_date": "2026-10-28T13:30:00+00:00",
+        "is_verified": true,
+        "grounding_notes": null
+      },
+      {
+        "claim": "Risk factor: Supply Chain Constraints Moderate Component Deliveries for NVDA",
+        "article_id": "mock_nvda_20261023_3",
+        "publisher": "CNBC",
+        "source_url": "https://finance.mockwire.com/news/nvda/mock_nvda_20261023_3",
+        "publication_date": "2026-10-23T13:30:00+00:00",
+        "is_verified": true,
+        "grounding_notes": null
+      },
+      {
+        "claim": "Catalyst: Wall Street Brokerages Upgrade NVDA Price Targets Following Earnings Beat",
+        "article_id": "mock_nvda_20261018_2",
+        "publisher": "Wall Street Journal",
+        "source_url": "https://finance.mockwire.com/news/nvda/mock_nvda_20261018_2",
+        "publication_date": "2026-10-18T13:30:00+00:00",
+        "is_verified": true,
+        "grounding_notes": null
+      },
+      {
+        "claim": "Risk factor: Wall Street Brokerages Upgrade NVDA Price Targets Following Earnings Beat",
+        "article_id": "mock_nvda_20261018_2",
+        "publisher": "Wall Street Journal",
+        "source_url": "https://finance.mockwire.com/news/nvda/mock_nvda_20261018_2",
+        "publication_date": "2026-10-18T13:30:00+00:00",
+        "is_verified": true,
+        "grounding_notes": null
+      },
+      {
+        "claim": "Catalyst: NVDA Unveils Next-Generation Architecture Ahead of Schedule",
+        "article_id": "mock_nvda_20261013_1",
+        "publisher": "Bloomberg",
+        "source_url": "https://finance.mockwire.com/news/nvda/mock_nvda_20261013_1",
+        "publication_date": "2026-10-13T13:30:00+00:00",
+        "is_verified": true,
+        "grounding_notes": null
+      },
+      {
+        "claim": "Catalyst: NVDA Reports Record Quarterly Cloud & AI Segment Revenue",
+        "article_id": "mock_nvda_20261008_0",
+        "publisher": "Reuters",
+        "source_url": "https://finance.mockwire.com/news/nvda/mock_nvda_20261008_0",
+        "publication_date": "2026-10-08T13:30:00+00:00",
+        "is_verified": true,
+        "grounding_notes": null
+      },
+      {
+        "claim": "Risk factor: NVDA Reports Record Quarterly Cloud & AI Segment Revenue",
+        "article_id": "mock_nvda_20261008_0",
+        "publisher": "Reuters",
+        "source_url": "https://finance.mockwire.com/news/nvda/mock_nvda_20261008_0",
+        "publication_date": "2026-10-08T13:30:00+00:00",
+        "is_verified": true,
+        "grounding_notes": null
+      },
+      {
+        "claim": "Risk factor: Regulatory Authorities Open Preliminary Inquiry into MSFT Software Ecosystem",
+        "article_id": "mock_msft_20261028_4",
+        "publisher": "Financial Times",
+        "source_url": "https://finance.mockwire.com/news/msft/mock_msft_20261028_4",
+        "publication_date": "2026-10-28T13:30:00+00:00",
+        "is_verified": true,
+        "grounding_notes": null
+      },
+      {
+        "claim": "Risk factor: Supply Chain Constraints Moderate Component Deliveries for MSFT",
+        "article_id": "mock_msft_20261023_3",
+        "publisher": "CNBC",
+        "source_url": "https://finance.mockwire.com/news/msft/mock_msft_20261023_3",
+        "publication_date": "2026-10-23T13:30:00+00:00",
+        "is_verified": true,
+        "grounding_notes": null
+      },
+      {
+        "claim": "Catalyst: Wall Street Brokerages Upgrade MSFT Price Targets Following Earnings Beat",
+        "article_id": "mock_msft_20261018_2",
+        "publisher": "Wall Street Journal",
+        "source_url": "https://finance.mockwire.com/news/msft/mock_msft_20261018_2",
+        "publication_date": "2026-10-18T13:30:00+00:00",
+        "is_verified": true,
+        "grounding_notes": null
+      },
+      {
+        "claim": "Risk factor: Wall Street Brokerages Upgrade MSFT Price Targets Following Earnings Beat",
+        "article_id": "mock_msft_20261018_2",
+        "publisher": "Wall Street Journal",
+        "source_url": "https://finance.mockwire.com/news/msft/mock_msft_20261018_2",
+        "publication_date": "2026-10-18T13:30:00+00:00",
+        "is_verified": true,
+        "grounding_notes": null
+      },
+      {
+        "claim": "Catalyst: MSFT Unveils Next-Generation Architecture Ahead of Schedule",
+        "article_id": "mock_msft_20261013_1",
+        "publisher": "Bloomberg",
+        "source_url": "https://finance.mockwire.com/news/msft/mock_msft_20261013_1",
+        "publication_date": "2026-10-13T13:30:00+00:00",
+        "is_verified": true,
+        "grounding_notes": null
+      },
+      {
+        "claim": "Catalyst: MSFT Reports Record Quarterly Cloud & AI Segment Revenue",
+        "article_id": "mock_msft_20261008_0",
+        "publisher": "Reuters",
+        "source_url": "https://finance.mockwire.com/news/msft/mock_msft_20261008_0",
+        "publication_date": "2026-10-08T13:30:00+00:00",
+        "is_verified": true,
+        "grounding_notes": null
+      },
+      {
+        "claim": "Risk factor: MSFT Reports Record Quarterly Cloud & AI Segment Revenue",
+        "article_id": "mock_msft_20261008_0",
+        "publisher": "Reuters",
+        "source_url": "https://finance.mockwire.com/news/msft/mock_msft_20261008_0",
+        "publication_date": "2026-10-08T13:30:00+00:00",
+        "is_verified": true,
+        "grounding_notes": null
+      }
+    ],
+    "limitations": [],
+    "generated_at_utc": "2026-11-08T16:22:37.250802+00:00",
+    "model_version": "mock",
+    "prompt_version": "v1.0"
+  },
+  "source_records": [
+    {
+      "id": "b374d98b-fae9-47a3-8135-c1c422a31807",
+      "ticker": "AAPL",
+      "source_url": "https://finance.mockwire.com/news/aapl/mock_aapl_20261102_5",
+      "publisher": "PR Newswire",
+      "published_at": "2026-11-02T13:30:00+00:00",
+      "evidence_type": "news",
+      "headline": "AAPL Partners with Global Telecoms to Deploy Edge Computing Nodes",
+      "is_duplicate": true
+    },
+    {
+      "id": "f8ed22cd-1ba9-46d8-9dad-85477c09ac4a",
+      "ticker": "MSFT",
+      "source_url": "https://finance.mockwire.com/news/msft/mock_msft_20261102_5",
+      "publisher": "PR Newswire",
+      "published_at": "2026-11-02T13:30:00+00:00",
+      "evidence_type": "news",
+      "headline": "MSFT Partners with Global Telecoms to Deploy Edge Computing Nodes",
+      "is_duplicate": true
+    },
+    {
+      "id": "2f30ce11-7670-49db-b0f6-76b2b157ba12",
+      "ticker": "NVDA",
+      "source_url": "https://finance.mockwire.com/news/nvda/mock_nvda_20261102_5",
+      "publisher": "PR Newswire",
+      "published_at": "2026-11-02T13:30:00+00:00",
+      "evidence_type": "news",
+      "headline": "NVDA Partners with Global Telecoms to Deploy Edge Computing Nodes",
+      "is_duplicate": true
+    },
+    {
+      "id": "55f2523a-6086-484e-bcd7-18cdbdea32f8",
+      "ticker": "AAPL",
+      "source_url": "https://finance.mockwire.com/news/aapl/mock_aapl_20261028_4",
+      "publisher": "Financial Times",
+      "published_at": "2026-10-28T13:30:00+00:00",
+      "evidence_type": "news",
+      "headline": "Regulatory Authorities Open Preliminary Inquiry into AAPL Software Ecosystem",
+      "is_duplicate": false
+    },
+    {
+      "id": "348e627a-29ee-42b1-80ce-76e84cd92a1c",
+      "ticker": "MSFT",
+      "source_url": "https://finance.mockwire.com/news/msft/mock_msft_20261028_4",
+      "publisher": "Financial Times",
+      "published_at": "2026-10-28T13:30:00+00:00",
+      "evidence_type": "news",
+      "headline": "Regulatory Authorities Open Preliminary Inquiry into MSFT Software Ecosystem",
+      "is_duplicate": false
+    },
+    {
+      "id": "2779ee06-9782-403c-a8c1-b080ffb63df3",
+      "ticker": "NVDA",
+      "source_url": "https://finance.mockwire.com/news/nvda/mock_nvda_20261028_4",
+      "publisher": "Financial Times",
+      "published_at": "2026-10-28T13:30:00+00:00",
+      "evidence_type": "news",
+      "headline": "Regulatory Authorities Open Preliminary Inquiry into NVDA Software Ecosystem",
+      "is_duplicate": false
+    },
+    {
+      "id": "51003da8-f3c3-4c23-aa01-a9bf097a0888",
+      "ticker": "AAPL",
+      "source_url": "https://finance.mockwire.com/news/aapl/mock_aapl_20261023_3",
+      "publisher": "CNBC",
+      "published_at": "2026-10-23T13:30:00+00:00",
+      "evidence_type": "news",
+      "headline": "Supply Chain Constraints Moderate Component Deliveries for AAPL",
+      "is_duplicate": false
+    },
+    {
+      "id": "3308742e-b294-4ef7-bac0-a183cc61c4f7",
+      "ticker": "MSFT",
+      "source_url": "https://finance.mockwire.com/news/msft/mock_msft_20261023_3",
+      "publisher": "CNBC",
+      "published_at": "2026-10-23T13:30:00+00:00",
+      "evidence_type": "news",
+      "headline": "Supply Chain Constraints Moderate Component Deliveries for MSFT",
+      "is_duplicate": false
+    },
+    {
+      "id": "d355d225-edb9-4022-a8af-19de975310f9",
+      "ticker": "NVDA",
+      "source_url": "https://finance.mockwire.com/news/nvda/mock_nvda_20261023_3",
+      "publisher": "CNBC",
+      "published_at": "2026-10-23T13:30:00+00:00",
+      "evidence_type": "news",
+      "headline": "Supply Chain Constraints Moderate Component Deliveries for NVDA",
+      "is_duplicate": false
+    },
+    {
+      "id": "5cc6e784-68e6-4170-88a2-d9e0e8841455",
+      "ticker": "AAPL",
+      "source_url": "https://finance.mockwire.com/news/aapl/mock_aapl_20261018_2",
+      "publisher": "Wall Street Journal",
+      "published_at": "2026-10-18T13:30:00+00:00",
+      "evidence_type": "news",
+      "headline": "Wall Street Brokerages Upgrade AAPL Price Targets Following Earnings Beat",
+      "is_duplicate": false
+    },
+    {
+      "id": "4fd80c42-52f9-4cf5-b115-7668d84843b8",
+      "ticker": "MSFT",
+      "source_url": "https://finance.mockwire.com/news/msft/mock_msft_20261018_2",
+      "publisher": "Wall Street Journal",
+      "published_at": "2026-10-18T13:30:00+00:00",
+      "evidence_type": "news",
+      "headline": "Wall Street Brokerages Upgrade MSFT Price Targets Following Earnings Beat",
+      "is_duplicate": false
+    },
+    {
+      "id": "c5c2acdf-aed3-4cb8-a85b-2cac27343d71",
+      "ticker": "NVDA",
+      "source_url": "https://finance.mockwire.com/news/nvda/mock_nvda_20261018_2",
+      "publisher": "Wall Street Journal",
+      "published_at": "2026-10-18T13:30:00+00:00",
+      "evidence_type": "news",
+      "headline": "Wall Street Brokerages Upgrade NVDA Price Targets Following Earnings Beat",
+      "is_duplicate": false
+    },
+    {
+      "id": "56d64fa3-55d0-4c12-b260-6b3876994434",
+      "ticker": "AAPL",
+      "source_url": "https://finance.mockwire.com/news/aapl/mock_aapl_20261013_1",
+      "publisher": "Bloomberg",
+      "published_at": "2026-10-13T13:30:00+00:00",
+      "evidence_type": "news",
+      "headline": "AAPL Unveils Next-Generation Architecture Ahead of Schedule",
+      "is_duplicate": false
+    },
+    {
+      "id": "e353a7b3-3fe3-42f3-a083-cb49afb04a75",
+      "ticker": "MSFT",
+      "source_url": "https://finance.mockwire.com/news/msft/mock_msft_20261013_1",
+      "publisher": "Bloomberg",
+      "published_at": "2026-10-13T13:30:00+00:00",
+      "evidence_type": "news",
+      "headline": "MSFT Unveils Next-Generation Architecture Ahead of Schedule",
+      "is_duplicate": false
+    },
+    {
+      "id": "12719458-c54f-4371-8d46-129fd75618d0",
+      "ticker": "NVDA",
+      "source_url": "https://finance.mockwire.com/news/nvda/mock_nvda_20261013_1",
+      "publisher": "Bloomberg",
+      "published_at": "2026-10-13T13:30:00+00:00",
+      "evidence_type": "news",
+      "headline": "NVDA Unveils Next-Generation Architecture Ahead of Schedule",
+      "is_duplicate": false
+    },
+    {
+      "id": "7055e8b2-ee4d-42dd-b179-55a61dcd8662",
+      "ticker": "AAPL",
+      "source_url": "https://finance.mockwire.com/news/aapl/mock_aapl_20261008_0",
+      "publisher": "Reuters",
+      "published_at": "2026-10-08T13:30:00+00:00",
+      "evidence_type": "news",
+      "headline": "AAPL Reports Record Quarterly Cloud & AI Segment Revenue",
+      "is_duplicate": false
+    },
+    {
+      "id": "356a0c4e-6bb8-4328-bdb1-ba3a99fae125",
+      "ticker": "AAPL",
+      "source_url": "https://finance.mockwire.com/news/aapl/mock_aapl_20261008_6",
+      "publisher": "Business Wire",
+      "published_at": "2026-10-08T13:30:00+00:00",
+      "evidence_type": "news",
+      "headline": "AAPL Partners with Global Telecoms to Deploy Edge Computing Nodes",
+      "is_duplicate": false
+    },
+    {
+      "id": "0b9d15be-e43f-46a4-a953-29e50652565e",
+      "ticker": "MSFT",
+      "source_url": "https://finance.mockwire.com/news/msft/mock_msft_20261008_0",
+      "publisher": "Reuters",
+      "published_at": "2026-10-08T13:30:00+00:00",
+      "evidence_type": "news",
+      "headline": "MSFT Reports Record Quarterly Cloud & AI Segment Revenue",
+      "is_duplicate": false
+    },
+    {
+      "id": "55db7bfd-07a5-4450-9011-9508323581fa",
+      "ticker": "MSFT",
+      "source_url": "https://finance.mockwire.com/news/msft/mock_msft_20261008_6",
+      "publisher": "Business Wire",
+      "published_at": "2026-10-08T13:30:00+00:00",
+      "evidence_type": "news",
+      "headline": "MSFT Partners with Global Telecoms to Deploy Edge Computing Nodes",
+      "is_duplicate": false
+    },
+    {
+      "id": "6969d0b8-00be-49a2-aa3f-fbbe5fb687e5",
+      "ticker": "NVDA",
+      "source_url": "https://finance.mockwire.com/news/nvda/mock_nvda_20261008_0",
+      "publisher": "Reuters",
+      "published_at": "2026-10-08T13:30:00+00:00",
+      "evidence_type": "news",
+      "headline": "NVDA Reports Record Quarterly Cloud & AI Segment Revenue",
+      "is_duplicate": false
+    },
+    {
+      "id": "b7be2843-53dd-4a49-94bb-826d3a0e4c45",
+      "ticker": "NVDA",
+      "source_url": "https://finance.mockwire.com/news/nvda/mock_nvda_20261008_6",
+      "publisher": "Business Wire",
+      "published_at": "2026-10-08T13:30:00+00:00",
+      "evidence_type": "news",
+      "headline": "NVDA Partners with Global Telecoms to Deploy Edge Computing Nodes",
+      "is_duplicate": false
+    }
+  ],
+  "disclaimer": "Informational research only. Not investment advice or price forecasts."
+}
